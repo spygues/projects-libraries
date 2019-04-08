@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# HOLE4.28.4-general
+#
+DEF ~HOLE4.28.4-general DRL 0 40 Y Y 1 F N
+F0 "DRL" 0 150 50 H V C CNN
+F1 "HOLE4.28.4-general" 0 250 50 H I C CNN
+F2 "general:8.4mm4.2mmBOLT" -100 50 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+C 0 0 100 0 1 0 N
+P 2 0 1 0 -100 -100 100 100 N
+P 2 0 1 0 -100 100 100 -100 N
+X ~ 1 0 -300 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Microfit_x2-general
+#
+DEF ~Microfit_x2-general J 0 40 Y Y 2 F N
+F0 "J" -150 0 60 H V C CNN
+F1 "Microfit_x2-general" 450 -350 60 H I C CNN
+F2 "general:microfit_x2" -250 -100 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 2 0 0 0 -300 50 -300 -50 N
+P 2 0 0 0 0 50 0 -50 N
+X ~ 1 200 0 200 L 50 50 1 1 P
+X ~ 2 200 0 200 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

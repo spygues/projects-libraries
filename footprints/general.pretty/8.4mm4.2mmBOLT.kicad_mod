@@ -1,0 +1,9 @@
+(module 8.4mm4.2mmBOLT (layer F.Cu) (tedit 5BE40A26)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 8.4mm4.2mmBOLT (at 0 -5.461) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 8.4 8.4) (drill 4.2) (layers *.Cu *.Mask))
+)

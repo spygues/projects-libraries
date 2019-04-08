@@ -1,0 +1,12 @@
+(module 159-littlefuse (layer F.Cu) (tedit 5BDD7A38)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 159-littlefuse (at 0 -3.175) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -5.45 -2.4) (end 5.45 -2.4) (layer F.SilkS) (width 0.05))
+  (fp_line (start -5.45 2.4) (end 5.45 2.4) (layer F.SilkS) (width 0.05))
+  (pad 1 smd rect (at -4.35 0) (size 4.3 3.88) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.35 0) (size 4.3 3.88) (layers F.Cu F.Paste F.Mask))
+)
